@@ -1,0 +1,816 @@
+$ make training MODEL_NAME=Loadzera
+unicharset_extractor --output_unicharset "data/Loadzera/unicharset" --norm_mode 2 "data/Loadzera/all-gt"
+Bad box coordinates in boxfile string! -0.40 in
+Extracting unicharset from plain text file data/Loadzera/all-gt
+Other case s of S is not in unicharset
+Other case m of M is not in unicharset
+Other case h of H is not in unicharset
+Other case w of W is not in unicharset
+Other case p of P is not in unicharset
+Other case e of E is not in unicharset
+Other case c of C is not in unicharset
+Other case k of K is not in unicharset
+Other case a of A is not in unicharset
+Other case d of D is not in unicharset
+Other case q of Q is not in unicharset
+Other case u of U is not in unicharset
+Other case x of X is not in unicharset
+Other case v of V is not in unicharset
+Wrote unicharset file data/Loadzera/unicharset
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/Loadzera-ground-truth/h0gsudpcdm.png" -t "data/Loadzera-ground-truth/h0gsudpcdm.gt.txt" > "data/Loadzera-ground-truth/h0gsudpcdm.box"
+tesseract "data/Loadzera-ground-truth/h0gsudpcdm.png" data/Loadzera-ground-truth/h0gsudpcdm --psm 13 lstm.train
+Error in pixReadMemTiff: function not present
+Error in pixReadMem: tiff: no pix returned
+Error in pixaGenerateFontFromString: pix not made
+Error in bmfCreate: font pixa not made
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/Loadzera-ground-truth/zt1my6of5j.png" -t "data/Loadzera-ground-truth/zt1my6of5j.gt.txt" > "data/Loadzera-ground-truth/zt1my6of5j.box"
+tesseract "data/Loadzera-ground-truth/zt1my6of5j.png" data/Loadzera-ground-truth/zt1my6of5j --psm 13 lstm.train
+Error in pixReadMemTiff: function not present
+Error in pixReadMem: tiff: no pix returned
+Error in pixaGenerateFontFromString: pix not made
+Error in bmfCreate: font pixa not made
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/Loadzera-ground-truth/506aooi5dz.png" -t "data/Loadzera-ground-truth/506aooi5dz.gt.txt" > "data/Loadzera-ground-truth/506aooi5dz.box"
+tesseract "data/Loadzera-ground-truth/506aooi5dz.png" data/Loadzera-ground-truth/506aooi5dz --psm 13 lstm.train
+Error in pixReadMemTiff: function not present
+Error in pixReadMem: tiff: no pix returned
+Error in pixaGenerateFontFromString: pix not made
+Error in bmfCreate: font pixa not made
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/Loadzera-ground-truth/q3hc77fvpm.png" -t "data/Loadzera-ground-truth/q3hc77fvpm.gt.txt" > "data/Loadzera-ground-truth/q3hc77fvpm.box"
+tesseract "data/Loadzera-ground-truth/q3hc77fvpm.png" data/Loadzera-ground-truth/q3hc77fvpm --psm 13 lstm.train
+Error in pixReadMemTiff: function not present
+Error in pixReadMem: tiff: no pix returned
+Error in pixaGenerateFontFromString: pix not made
+Error in bmfCreate: font pixa not made
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/Loadzera-ground-truth/fvfzqx86kw.png" -t "data/Loadzera-ground-truth/fvfzqx86kw.gt.txt" > "data/Loadzera-ground-truth/fvfzqx86kw.box"
+tesseract "data/Loadzera-ground-truth/fvfzqx86kw.png" data/Loadzera-ground-truth/fvfzqx86kw --psm 13 lstm.train
+Error in pixReadMemTiff: function not present
+Error in pixReadMem: tiff: no pix returned
+Error in pixaGenerateFontFromString: pix not made
+Error in bmfCreate: font pixa not made
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/Loadzera-ground-truth/jh83c9ggaf.png" -t "data/Loadzera-ground-truth/jh83c9ggaf.gt.txt" > "data/Loadzera-ground-truth/jh83c9ggaf.box"
+tesseract "data/Loadzera-ground-truth/jh83c9ggaf.png" data/Loadzera-ground-truth/jh83c9ggaf --psm 13 lstm.train
+Error in pixReadMemTiff: function not present
+Error in pixReadMem: tiff: no pix returned
+Error in pixaGenerateFontFromString: pix not made
+Error in bmfCreate: font pixa not made
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/Loadzera-ground-truth/s4vqqr16ji.png" -t "data/Loadzera-ground-truth/s4vqqr16ji.gt.txt" > "data/Loadzera-ground-truth/s4vqqr16ji.box"
+tesseract "data/Loadzera-ground-truth/s4vqqr16ji.png" data/Loadzera-ground-truth/s4vqqr16ji --psm 13 lstm.train
+Error in pixReadMemTiff: function not present
+Error in pixReadMem: tiff: no pix returned
+Error in pixaGenerateFontFromString: pix not made
+Error in bmfCreate: font pixa not made
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/Loadzera-ground-truth/shuftrqtk4.png" -t "data/Loadzera-ground-truth/shuftrqtk4.gt.txt" > "data/Loadzera-ground-truth/shuftrqtk4.box"
+tesseract "data/Loadzera-ground-truth/shuftrqtk4.png" data/Loadzera-ground-truth/shuftrqtk4 --psm 13 lstm.train
+Error in pixReadMemTiff: function not present
+Error in pixReadMem: tiff: no pix returned
+Error in pixaGenerateFontFromString: pix not made
+Error in bmfCreate: font pixa not made
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/Loadzera-ground-truth/a21tn6wn1x.png" -t "data/Loadzera-ground-truth/a21tn6wn1x.gt.txt" > "data/Loadzera-ground-truth/a21tn6wn1x.box"
+tesseract "data/Loadzera-ground-truth/a21tn6wn1x.png" data/Loadzera-ground-truth/a21tn6wn1x --psm 13 lstm.train
+Error in pixReadMemTiff: function not present
+Error in pixReadMem: tiff: no pix returned
+Error in pixaGenerateFontFromString: pix not made
+Error in bmfCreate: font pixa not made
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/Loadzera-ground-truth/mk8p6mfk77.png" -t "data/Loadzera-ground-truth/mk8p6mfk77.gt.txt" > "data/Loadzera-ground-truth/mk8p6mfk77.box"
+tesseract "data/Loadzera-ground-truth/mk8p6mfk77.png" data/Loadzera-ground-truth/mk8p6mfk77 --psm 13 lstm.train
+Error in pixReadMemTiff: function not present
+Error in pixReadMem: tiff: no pix returned
+Error in pixaGenerateFontFromString: pix not made
+Error in bmfCreate: font pixa not made
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/Loadzera-ground-truth/f31ivzrps2.png" -t "data/Loadzera-ground-truth/f31ivzrps2.gt.txt" > "data/Loadzera-ground-truth/f31ivzrps2.box"
+tesseract "data/Loadzera-ground-truth/f31ivzrps2.png" data/Loadzera-ground-truth/f31ivzrps2 --psm 13 lstm.train
+Error in pixReadMemTiff: function not present
+Error in pixReadMem: tiff: no pix returned
+Error in pixaGenerateFontFromString: pix not made
+Error in bmfCreate: font pixa not made
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/Loadzera-ground-truth/bf619qjjt9.png" -t "data/Loadzera-ground-truth/bf619qjjt9.gt.txt" > "data/Loadzera-ground-truth/bf619qjjt9.box"
+tesseract "data/Loadzera-ground-truth/bf619qjjt9.png" data/Loadzera-ground-truth/bf619qjjt9 --psm 13 lstm.train
+Error in pixReadMemTiff: function not present
+Error in pixReadMem: tiff: no pix returned
+Error in pixaGenerateFontFromString: pix not made
+Error in bmfCreate: font pixa not made
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/Loadzera-ground-truth/cizqwr4emn.png" -t "data/Loadzera-ground-truth/cizqwr4emn.gt.txt" > "data/Loadzera-ground-truth/cizqwr4emn.box"
+tesseract "data/Loadzera-ground-truth/cizqwr4emn.png" data/Loadzera-ground-truth/cizqwr4emn --psm 13 lstm.train
+Error in pixReadMemTiff: function not present
+Error in pixReadMem: tiff: no pix returned
+Error in pixaGenerateFontFromString: pix not made
+Error in bmfCreate: font pixa not made
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/Loadzera-ground-truth/cg4nhhvybk.png" -t "data/Loadzera-ground-truth/cg4nhhvybk.gt.txt" > "data/Loadzera-ground-truth/cg4nhhvybk.box"
+tesseract "data/Loadzera-ground-truth/cg4nhhvybk.png" data/Loadzera-ground-truth/cg4nhhvybk --psm 13 lstm.train
+Error in pixReadMemTiff: function not present
+Error in pixReadMem: tiff: no pix returned
+Error in pixaGenerateFontFromString: pix not made
+Error in bmfCreate: font pixa not made
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/Loadzera-ground-truth/1zchnwn0t1.png" -t "data/Loadzera-ground-truth/1zchnwn0t1.gt.txt" > "data/Loadzera-ground-truth/1zchnwn0t1.box"
+tesseract "data/Loadzera-ground-truth/1zchnwn0t1.png" data/Loadzera-ground-truth/1zchnwn0t1 --psm 13 lstm.train
+Error in pixReadMemTiff: function not present
+Error in pixReadMem: tiff: no pix returned
+Error in pixaGenerateFontFromString: pix not made
+Error in bmfCreate: font pixa not made
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/Loadzera-ground-truth/60zsryn3al.png" -t "data/Loadzera-ground-truth/60zsryn3al.gt.txt" > "data/Loadzera-ground-truth/60zsryn3al.box"
+tesseract "data/Loadzera-ground-truth/60zsryn3al.png" data/Loadzera-ground-truth/60zsryn3al --psm 13 lstm.train
+Error in pixReadMemTiff: function not present
+Error in pixReadMem: tiff: no pix returned
+Error in pixaGenerateFontFromString: pix not made
+Error in bmfCreate: font pixa not made
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/Loadzera-ground-truth/icucv20re2.png" -t "data/Loadzera-ground-truth/icucv20re2.gt.txt" > "data/Loadzera-ground-truth/icucv20re2.box"
+tesseract "data/Loadzera-ground-truth/icucv20re2.png" data/Loadzera-ground-truth/icucv20re2 --psm 13 lstm.train
+Error in pixReadMemTiff: function not present
+Error in pixReadMem: tiff: no pix returned
+Error in pixaGenerateFontFromString: pix not made
+Error in bmfCreate: font pixa not made
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/Loadzera-ground-truth/rs2y5i8l0e.png" -t "data/Loadzera-ground-truth/rs2y5i8l0e.gt.txt" > "data/Loadzera-ground-truth/rs2y5i8l0e.box"
+tesseract "data/Loadzera-ground-truth/rs2y5i8l0e.png" data/Loadzera-ground-truth/rs2y5i8l0e --psm 13 lstm.train
+Error in pixReadMemTiff: function not present
+Error in pixReadMem: tiff: no pix returned
+Error in pixaGenerateFontFromString: pix not made
+Error in bmfCreate: font pixa not made
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/Loadzera-ground-truth/r8yax8a17l.png" -t "data/Loadzera-ground-truth/r8yax8a17l.gt.txt" > "data/Loadzera-ground-truth/r8yax8a17l.box"
+tesseract "data/Loadzera-ground-truth/r8yax8a17l.png" data/Loadzera-ground-truth/r8yax8a17l --psm 13 lstm.train
+Error in pixReadMemTiff: function not present
+Error in pixReadMem: tiff: no pix returned
+Error in pixaGenerateFontFromString: pix not made
+Error in bmfCreate: font pixa not made
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/Loadzera-ground-truth/uxpvw5toax.png" -t "data/Loadzera-ground-truth/uxpvw5toax.gt.txt" > "data/Loadzera-ground-truth/uxpvw5toax.box"
+tesseract "data/Loadzera-ground-truth/uxpvw5toax.png" data/Loadzera-ground-truth/uxpvw5toax --psm 13 lstm.train
+Error in pixReadMemTiff: function not present
+Error in pixReadMem: tiff: no pix returned
+Error in pixaGenerateFontFromString: pix not made
+Error in bmfCreate: font pixa not made
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/Loadzera-ground-truth/cf028hq1bc.png" -t "data/Loadzera-ground-truth/cf028hq1bc.gt.txt" > "data/Loadzera-ground-truth/cf028hq1bc.box"
+tesseract "data/Loadzera-ground-truth/cf028hq1bc.png" data/Loadzera-ground-truth/cf028hq1bc --psm 13 lstm.train
+Error in pixReadMemTiff: function not present
+Error in pixReadMem: tiff: no pix returned
+Error in pixaGenerateFontFromString: pix not made
+Error in bmfCreate: font pixa not made
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/Loadzera-ground-truth/cnk0dvlj6o.png" -t "data/Loadzera-ground-truth/cnk0dvlj6o.gt.txt" > "data/Loadzera-ground-truth/cnk0dvlj6o.box"
+tesseract "data/Loadzera-ground-truth/cnk0dvlj6o.png" data/Loadzera-ground-truth/cnk0dvlj6o --psm 13 lstm.train
+Error in pixReadMemTiff: function not present
+Error in pixReadMem: tiff: no pix returned
+Error in pixaGenerateFontFromString: pix not made
+Error in bmfCreate: font pixa not made
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/Loadzera-ground-truth/5is6pmx2c6.png" -t "data/Loadzera-ground-truth/5is6pmx2c6.gt.txt" > "data/Loadzera-ground-truth/5is6pmx2c6.box"
+tesseract "data/Loadzera-ground-truth/5is6pmx2c6.png" data/Loadzera-ground-truth/5is6pmx2c6 --psm 13 lstm.train
+Error in pixReadMemTiff: function not present
+Error in pixReadMem: tiff: no pix returned
+Error in pixaGenerateFontFromString: pix not made
+Error in bmfCreate: font pixa not made
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/Loadzera-ground-truth/spr5soknpz.png" -t "data/Loadzera-ground-truth/spr5soknpz.gt.txt" > "data/Loadzera-ground-truth/spr5soknpz.box"
+tesseract "data/Loadzera-ground-truth/spr5soknpz.png" data/Loadzera-ground-truth/spr5soknpz --psm 13 lstm.train
+Error in pixReadMemTiff: function not present
+Error in pixReadMem: tiff: no pix returned
+Error in pixaGenerateFontFromString: pix not made
+Error in bmfCreate: font pixa not made
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/Loadzera-ground-truth/xtqmz6yyg7.png" -t "data/Loadzera-ground-truth/xtqmz6yyg7.gt.txt" > "data/Loadzera-ground-truth/xtqmz6yyg7.box"
+tesseract "data/Loadzera-ground-truth/xtqmz6yyg7.png" data/Loadzera-ground-truth/xtqmz6yyg7 --psm 13 lstm.train
+Error in pixReadMemTiff: function not present
+Error in pixReadMem: tiff: no pix returned
+Error in pixaGenerateFontFromString: pix not made
+Error in bmfCreate: font pixa not made
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/Loadzera-ground-truth/dx645gkocq.png" -t "data/Loadzera-ground-truth/dx645gkocq.gt.txt" > "data/Loadzera-ground-truth/dx645gkocq.box"
+tesseract "data/Loadzera-ground-truth/dx645gkocq.png" data/Loadzera-ground-truth/dx645gkocq --psm 13 lstm.train
+Error in pixReadMemTiff: function not present
+Error in pixReadMem: tiff: no pix returned
+Error in pixaGenerateFontFromString: pix not made
+Error in bmfCreate: font pixa not made
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/Loadzera-ground-truth/u7e8z00roi.png" -t "data/Loadzera-ground-truth/u7e8z00roi.gt.txt" > "data/Loadzera-ground-truth/u7e8z00roi.box"
+tesseract "data/Loadzera-ground-truth/u7e8z00roi.png" data/Loadzera-ground-truth/u7e8z00roi --psm 13 lstm.train
+Error in pixReadMemTiff: function not present
+Error in pixReadMem: tiff: no pix returned
+Error in pixaGenerateFontFromString: pix not made
+Error in bmfCreate: font pixa not made
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/Loadzera-ground-truth/jx0avkghjp.png" -t "data/Loadzera-ground-truth/jx0avkghjp.gt.txt" > "data/Loadzera-ground-truth/jx0avkghjp.box"
+tesseract "data/Loadzera-ground-truth/jx0avkghjp.png" data/Loadzera-ground-truth/jx0avkghjp --psm 13 lstm.train
+Error in pixReadMemTiff: function not present
+Error in pixReadMem: tiff: no pix returned
+Error in pixaGenerateFontFromString: pix not made
+Error in bmfCreate: font pixa not made
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/Loadzera-ground-truth/ho7ihm57gm.png" -t "data/Loadzera-ground-truth/ho7ihm57gm.gt.txt" > "data/Loadzera-ground-truth/ho7ihm57gm.box"
+tesseract "data/Loadzera-ground-truth/ho7ihm57gm.png" data/Loadzera-ground-truth/ho7ihm57gm --psm 13 lstm.train
+Error in pixReadMemTiff: function not present
+Error in pixReadMem: tiff: no pix returned
+Error in pixaGenerateFontFromString: pix not made
+Error in bmfCreate: font pixa not made
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/Loadzera-ground-truth/y90jcz8kvt.png" -t "data/Loadzera-ground-truth/y90jcz8kvt.gt.txt" > "data/Loadzera-ground-truth/y90jcz8kvt.box"
+tesseract "data/Loadzera-ground-truth/y90jcz8kvt.png" data/Loadzera-ground-truth/y90jcz8kvt --psm 13 lstm.train
+Error in pixReadMemTiff: function not present
+Error in pixReadMem: tiff: no pix returned
+Error in pixaGenerateFontFromString: pix not made
+Error in bmfCreate: font pixa not made
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/Loadzera-ground-truth/d5roauxnwd.png" -t "data/Loadzera-ground-truth/d5roauxnwd.gt.txt" > "data/Loadzera-ground-truth/d5roauxnwd.box"
+tesseract "data/Loadzera-ground-truth/d5roauxnwd.png" data/Loadzera-ground-truth/d5roauxnwd --psm 13 lstm.train
+Error in pixReadMemTiff: function not present
+Error in pixReadMem: tiff: no pix returned
+Error in pixaGenerateFontFromString: pix not made
+Error in bmfCreate: font pixa not made
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/Loadzera-ground-truth/rm5gdm12wd.png" -t "data/Loadzera-ground-truth/rm5gdm12wd.gt.txt" > "data/Loadzera-ground-truth/rm5gdm12wd.box"
+tesseract "data/Loadzera-ground-truth/rm5gdm12wd.png" data/Loadzera-ground-truth/rm5gdm12wd --psm 13 lstm.train
+Error in pixReadMemTiff: function not present
+Error in pixReadMem: tiff: no pix returned
+Error in pixaGenerateFontFromString: pix not made
+Error in bmfCreate: font pixa not made
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/Loadzera-ground-truth/timyjunlfl.png" -t "data/Loadzera-ground-truth/timyjunlfl.gt.txt" > "data/Loadzera-ground-truth/timyjunlfl.box"
+tesseract "data/Loadzera-ground-truth/timyjunlfl.png" data/Loadzera-ground-truth/timyjunlfl --psm 13 lstm.train
+Error in pixReadMemTiff: function not present
+Error in pixReadMem: tiff: no pix returned
+Error in pixaGenerateFontFromString: pix not made
+Error in bmfCreate: font pixa not made
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/Loadzera-ground-truth/3yhz16vdfe.png" -t "data/Loadzera-ground-truth/3yhz16vdfe.gt.txt" > "data/Loadzera-ground-truth/3yhz16vdfe.box"
+tesseract "data/Loadzera-ground-truth/3yhz16vdfe.png" data/Loadzera-ground-truth/3yhz16vdfe --psm 13 lstm.train
+Error in pixReadMemTiff: function not present
+Error in pixReadMem: tiff: no pix returned
+Error in pixaGenerateFontFromString: pix not made
+Error in bmfCreate: font pixa not made
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/Loadzera-ground-truth/00r8s89r1o.png" -t "data/Loadzera-ground-truth/00r8s89r1o.gt.txt" > "data/Loadzera-ground-truth/00r8s89r1o.box"
+tesseract "data/Loadzera-ground-truth/00r8s89r1o.png" data/Loadzera-ground-truth/00r8s89r1o --psm 13 lstm.train
+Error in pixReadMemTiff: function not present
+Error in pixReadMem: tiff: no pix returned
+Error in pixaGenerateFontFromString: pix not made
+Error in bmfCreate: font pixa not made
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/Loadzera-ground-truth/bniqzkedkt.png" -t "data/Loadzera-ground-truth/bniqzkedkt.gt.txt" > "data/Loadzera-ground-truth/bniqzkedkt.box"
+tesseract "data/Loadzera-ground-truth/bniqzkedkt.png" data/Loadzera-ground-truth/bniqzkedkt --psm 13 lstm.train
+Error in pixReadMemTiff: function not present
+Error in pixReadMem: tiff: no pix returned
+Error in pixaGenerateFontFromString: pix not made
+Error in bmfCreate: font pixa not made
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/Loadzera-ground-truth/nzxnjy7iur.png" -t "data/Loadzera-ground-truth/nzxnjy7iur.gt.txt" > "data/Loadzera-ground-truth/nzxnjy7iur.box"
+tesseract "data/Loadzera-ground-truth/nzxnjy7iur.png" data/Loadzera-ground-truth/nzxnjy7iur --psm 13 lstm.train
+Error in pixReadMemTiff: function not present
+Error in pixReadMem: tiff: no pix returned
+Error in pixaGenerateFontFromString: pix not made
+Error in bmfCreate: font pixa not made
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/Loadzera-ground-truth/mh46cu6h71.png" -t "data/Loadzera-ground-truth/mh46cu6h71.gt.txt" > "data/Loadzera-ground-truth/mh46cu6h71.box"
+tesseract "data/Loadzera-ground-truth/mh46cu6h71.png" data/Loadzera-ground-truth/mh46cu6h71 --psm 13 lstm.train
+Error in pixReadMemTiff: function not present
+Error in pixReadMem: tiff: no pix returned
+Error in pixaGenerateFontFromString: pix not made
+Error in bmfCreate: font pixa not made
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/Loadzera-ground-truth/uqyy9memu6.png" -t "data/Loadzera-ground-truth/uqyy9memu6.gt.txt" > "data/Loadzera-ground-truth/uqyy9memu6.box"
+tesseract "data/Loadzera-ground-truth/uqyy9memu6.png" data/Loadzera-ground-truth/uqyy9memu6 --psm 13 lstm.train
+Error in pixReadMemTiff: function not present
+Error in pixReadMem: tiff: no pix returned
+Error in pixaGenerateFontFromString: pix not made
+Error in bmfCreate: font pixa not made
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/Loadzera-ground-truth/6hsdl04b6c.png" -t "data/Loadzera-ground-truth/6hsdl04b6c.gt.txt" > "data/Loadzera-ground-truth/6hsdl04b6c.box"
+tesseract "data/Loadzera-ground-truth/6hsdl04b6c.png" data/Loadzera-ground-truth/6hsdl04b6c --psm 13 lstm.train
+Error in pixReadMemTiff: function not present
+Error in pixReadMem: tiff: no pix returned
+Error in pixaGenerateFontFromString: pix not made
+Error in bmfCreate: font pixa not made
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/Loadzera-ground-truth/282uo11all.png" -t "data/Loadzera-ground-truth/282uo11all.gt.txt" > "data/Loadzera-ground-truth/282uo11all.box"
+tesseract "data/Loadzera-ground-truth/282uo11all.png" data/Loadzera-ground-truth/282uo11all --psm 13 lstm.train
+Error in pixReadMemTiff: function not present
+Error in pixReadMem: tiff: no pix returned
+Error in pixaGenerateFontFromString: pix not made
+Error in bmfCreate: font pixa not made
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/Loadzera-ground-truth/sqgf18nd9r.png" -t "data/Loadzera-ground-truth/sqgf18nd9r.gt.txt" > "data/Loadzera-ground-truth/sqgf18nd9r.box"
+tesseract "data/Loadzera-ground-truth/sqgf18nd9r.png" data/Loadzera-ground-truth/sqgf18nd9r --psm 13 lstm.train
+Error in pixReadMemTiff: function not present
+Error in pixReadMem: tiff: no pix returned
+Error in pixaGenerateFontFromString: pix not made
+Error in bmfCreate: font pixa not made
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/Loadzera-ground-truth/9gsk99byhp.png" -t "data/Loadzera-ground-truth/9gsk99byhp.gt.txt" > "data/Loadzera-ground-truth/9gsk99byhp.box"
+tesseract "data/Loadzera-ground-truth/9gsk99byhp.png" data/Loadzera-ground-truth/9gsk99byhp --psm 13 lstm.train
+Error in pixReadMemTiff: function not present
+Error in pixReadMem: tiff: no pix returned
+Error in pixaGenerateFontFromString: pix not made
+Error in bmfCreate: font pixa not made
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/Loadzera-ground-truth/nidwcrhvpm.png" -t "data/Loadzera-ground-truth/nidwcrhvpm.gt.txt" > "data/Loadzera-ground-truth/nidwcrhvpm.box"
+tesseract "data/Loadzera-ground-truth/nidwcrhvpm.png" data/Loadzera-ground-truth/nidwcrhvpm --psm 13 lstm.train
+Error in pixReadMemTiff: function not present
+Error in pixReadMem: tiff: no pix returned
+Error in pixaGenerateFontFromString: pix not made
+Error in bmfCreate: font pixa not made
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/Loadzera-ground-truth/dmz1cytjb6.png" -t "data/Loadzera-ground-truth/dmz1cytjb6.gt.txt" > "data/Loadzera-ground-truth/dmz1cytjb6.box"
+tesseract "data/Loadzera-ground-truth/dmz1cytjb6.png" data/Loadzera-ground-truth/dmz1cytjb6 --psm 13 lstm.train
+Error in pixReadMemTiff: function not present
+Error in pixReadMem: tiff: no pix returned
+Error in pixaGenerateFontFromString: pix not made
+Error in bmfCreate: font pixa not made
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/Loadzera-ground-truth/z2q0wc6wyw.png" -t "data/Loadzera-ground-truth/z2q0wc6wyw.gt.txt" > "data/Loadzera-ground-truth/z2q0wc6wyw.box"
+tesseract "data/Loadzera-ground-truth/z2q0wc6wyw.png" data/Loadzera-ground-truth/z2q0wc6wyw --psm 13 lstm.train
+Error in pixReadMemTiff: function not present
+Error in pixReadMem: tiff: no pix returned
+Error in pixaGenerateFontFromString: pix not made
+Error in bmfCreate: font pixa not made
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/Loadzera-ground-truth/0gfronvlz7.png" -t "data/Loadzera-ground-truth/0gfronvlz7.gt.txt" > "data/Loadzera-ground-truth/0gfronvlz7.box"
+tesseract "data/Loadzera-ground-truth/0gfronvlz7.png" data/Loadzera-ground-truth/0gfronvlz7 --psm 13 lstm.train
+Error in pixReadMemTiff: function not present
+Error in pixReadMem: tiff: no pix returned
+Error in pixaGenerateFontFromString: pix not made
+Error in bmfCreate: font pixa not made
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/Loadzera-ground-truth/6pgxralepe.png" -t "data/Loadzera-ground-truth/6pgxralepe.gt.txt" > "data/Loadzera-ground-truth/6pgxralepe.box"
+tesseract "data/Loadzera-ground-truth/6pgxralepe.png" data/Loadzera-ground-truth/6pgxralepe --psm 13 lstm.train
+Error in pixReadMemTiff: function not present
+Error in pixReadMem: tiff: no pix returned
+Error in pixaGenerateFontFromString: pix not made
+Error in bmfCreate: font pixa not made
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/Loadzera-ground-truth/o3o09pini1.png" -t "data/Loadzera-ground-truth/o3o09pini1.gt.txt" > "data/Loadzera-ground-truth/o3o09pini1.box"
+tesseract "data/Loadzera-ground-truth/o3o09pini1.png" data/Loadzera-ground-truth/o3o09pini1 --psm 13 lstm.train
+Error in pixReadMemTiff: function not present
+Error in pixReadMem: tiff: no pix returned
+Error in pixaGenerateFontFromString: pix not made
+Error in bmfCreate: font pixa not made
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/Loadzera-ground-truth/6y25978mjd.png" -t "data/Loadzera-ground-truth/6y25978mjd.gt.txt" > "data/Loadzera-ground-truth/6y25978mjd.box"
+tesseract "data/Loadzera-ground-truth/6y25978mjd.png" data/Loadzera-ground-truth/6y25978mjd --psm 13 lstm.train
+Error in pixReadMemTiff: function not present
+Error in pixReadMem: tiff: no pix returned
+Error in pixaGenerateFontFromString: pix not made
+Error in bmfCreate: font pixa not made
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/Loadzera-ground-truth/yffswomiaz.png" -t "data/Loadzera-ground-truth/yffswomiaz.gt.txt" > "data/Loadzera-ground-truth/yffswomiaz.box"
+tesseract "data/Loadzera-ground-truth/yffswomiaz.png" data/Loadzera-ground-truth/yffswomiaz --psm 13 lstm.train
+Error in pixReadMemTiff: function not present
+Error in pixReadMem: tiff: no pix returned
+Error in pixaGenerateFontFromString: pix not made
+Error in bmfCreate: font pixa not made
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/Loadzera-ground-truth/1ltb2g2ti2.png" -t "data/Loadzera-ground-truth/1ltb2g2ti2.gt.txt" > "data/Loadzera-ground-truth/1ltb2g2ti2.box"
+tesseract "data/Loadzera-ground-truth/1ltb2g2ti2.png" data/Loadzera-ground-truth/1ltb2g2ti2 --psm 13 lstm.train
+Error in pixReadMemTiff: function not present
+Error in pixReadMem: tiff: no pix returned
+Error in pixaGenerateFontFromString: pix not made
+Error in bmfCreate: font pixa not made
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/Loadzera-ground-truth/zpltwq0idn.png" -t "data/Loadzera-ground-truth/zpltwq0idn.gt.txt" > "data/Loadzera-ground-truth/zpltwq0idn.box"
+tesseract "data/Loadzera-ground-truth/zpltwq0idn.png" data/Loadzera-ground-truth/zpltwq0idn --psm 13 lstm.train
+Error in pixReadMemTiff: function not present
+Error in pixReadMem: tiff: no pix returned
+Error in pixaGenerateFontFromString: pix not made
+Error in bmfCreate: font pixa not made
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/Loadzera-ground-truth/eyacby9ht0.png" -t "data/Loadzera-ground-truth/eyacby9ht0.gt.txt" > "data/Loadzera-ground-truth/eyacby9ht0.box"
+tesseract "data/Loadzera-ground-truth/eyacby9ht0.png" data/Loadzera-ground-truth/eyacby9ht0 --psm 13 lstm.train
+Error in pixReadMemTiff: function not present
+Error in pixReadMem: tiff: no pix returned
+Error in pixaGenerateFontFromString: pix not made
+Error in bmfCreate: font pixa not made
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/Loadzera-ground-truth/o3o30nz733.png" -t "data/Loadzera-ground-truth/o3o30nz733.gt.txt" > "data/Loadzera-ground-truth/o3o30nz733.box"
+tesseract "data/Loadzera-ground-truth/o3o30nz733.png" data/Loadzera-ground-truth/o3o30nz733 --psm 13 lstm.train
+Error in pixReadMemTiff: function not present
+Error in pixReadMem: tiff: no pix returned
+Error in pixaGenerateFontFromString: pix not made
+Error in bmfCreate: font pixa not made
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/Loadzera-ground-truth/lv5qg1pnre.png" -t "data/Loadzera-ground-truth/lv5qg1pnre.gt.txt" > "data/Loadzera-ground-truth/lv5qg1pnre.box"
+tesseract "data/Loadzera-ground-truth/lv5qg1pnre.png" data/Loadzera-ground-truth/lv5qg1pnre --psm 13 lstm.train
+Error in pixReadMemTiff: function not present
+Error in pixReadMem: tiff: no pix returned
+Error in pixaGenerateFontFromString: pix not made
+Error in bmfCreate: font pixa not made
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/Loadzera-ground-truth/zno1kr8xch.png" -t "data/Loadzera-ground-truth/zno1kr8xch.gt.txt" > "data/Loadzera-ground-truth/zno1kr8xch.box"
+tesseract "data/Loadzera-ground-truth/zno1kr8xch.png" data/Loadzera-ground-truth/zno1kr8xch --psm 13 lstm.train
+Error in pixReadMemTiff: function not present
+Error in pixReadMem: tiff: no pix returned
+Error in pixaGenerateFontFromString: pix not made
+Error in bmfCreate: font pixa not made
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/Loadzera-ground-truth/swbvbyremt.png" -t "data/Loadzera-ground-truth/swbvbyremt.gt.txt" > "data/Loadzera-ground-truth/swbvbyremt.box"
+tesseract "data/Loadzera-ground-truth/swbvbyremt.png" data/Loadzera-ground-truth/swbvbyremt --psm 13 lstm.train
+Error in pixReadMemTiff: function not present
+Error in pixReadMem: tiff: no pix returned
+Error in pixaGenerateFontFromString: pix not made
+Error in bmfCreate: font pixa not made
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/Loadzera-ground-truth/tlvhhshg18.png" -t "data/Loadzera-ground-truth/tlvhhshg18.gt.txt" > "data/Loadzera-ground-truth/tlvhhshg18.box"
+tesseract "data/Loadzera-ground-truth/tlvhhshg18.png" data/Loadzera-ground-truth/tlvhhshg18 --psm 13 lstm.train
+Error in pixReadMemTiff: function not present
+Error in pixReadMem: tiff: no pix returned
+Error in pixaGenerateFontFromString: pix not made
+Error in bmfCreate: font pixa not made
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/Loadzera-ground-truth/8mmqvz025c.png" -t "data/Loadzera-ground-truth/8mmqvz025c.gt.txt" > "data/Loadzera-ground-truth/8mmqvz025c.box"
+tesseract "data/Loadzera-ground-truth/8mmqvz025c.png" data/Loadzera-ground-truth/8mmqvz025c --psm 13 lstm.train
+Error in pixReadMemTiff: function not present
+Error in pixReadMem: tiff: no pix returned
+Error in pixaGenerateFontFromString: pix not made
+Error in bmfCreate: font pixa not made
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/Loadzera-ground-truth/kkgk4zobiq.png" -t "data/Loadzera-ground-truth/kkgk4zobiq.gt.txt" > "data/Loadzera-ground-truth/kkgk4zobiq.box"
+tesseract "data/Loadzera-ground-truth/kkgk4zobiq.png" data/Loadzera-ground-truth/kkgk4zobiq --psm 13 lstm.train
+Error in pixReadMemTiff: function not present
+Error in pixReadMem: tiff: no pix returned
+Error in pixaGenerateFontFromString: pix not made
+Error in bmfCreate: font pixa not made
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/Loadzera-ground-truth/gla5yikwxw.png" -t "data/Loadzera-ground-truth/gla5yikwxw.gt.txt" > "data/Loadzera-ground-truth/gla5yikwxw.box"
+tesseract "data/Loadzera-ground-truth/gla5yikwxw.png" data/Loadzera-ground-truth/gla5yikwxw --psm 13 lstm.train
+Error in pixReadMemTiff: function not present
+Error in pixReadMem: tiff: no pix returned
+Error in pixaGenerateFontFromString: pix not made
+Error in bmfCreate: font pixa not made
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/Loadzera-ground-truth/vw55rf3ty2.png" -t "data/Loadzera-ground-truth/vw55rf3ty2.gt.txt" > "data/Loadzera-ground-truth/vw55rf3ty2.box"
+tesseract "data/Loadzera-ground-truth/vw55rf3ty2.png" data/Loadzera-ground-truth/vw55rf3ty2 --psm 13 lstm.train
+Error in pixReadMemTiff: function not present
+Error in pixReadMem: tiff: no pix returned
+Error in pixaGenerateFontFromString: pix not made
+Error in bmfCreate: font pixa not made
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/Loadzera-ground-truth/h93b8pcusg.png" -t "data/Loadzera-ground-truth/h93b8pcusg.gt.txt" > "data/Loadzera-ground-truth/h93b8pcusg.box"
+tesseract "data/Loadzera-ground-truth/h93b8pcusg.png" data/Loadzera-ground-truth/h93b8pcusg --psm 13 lstm.train
+Error in pixReadMemTiff: function not present
+Error in pixReadMem: tiff: no pix returned
+Error in pixaGenerateFontFromString: pix not made
+Error in bmfCreate: font pixa not made
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/Loadzera-ground-truth/jbf8kryfy3.png" -t "data/Loadzera-ground-truth/jbf8kryfy3.gt.txt" > "data/Loadzera-ground-truth/jbf8kryfy3.box"
+tesseract "data/Loadzera-ground-truth/jbf8kryfy3.png" data/Loadzera-ground-truth/jbf8kryfy3 --psm 13 lstm.train
+Error in pixReadMemTiff: function not present
+Error in pixReadMem: tiff: no pix returned
+Error in pixaGenerateFontFromString: pix not made
+Error in bmfCreate: font pixa not made
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/Loadzera-ground-truth/7ekwol1nfm.png" -t "data/Loadzera-ground-truth/7ekwol1nfm.gt.txt" > "data/Loadzera-ground-truth/7ekwol1nfm.box"
+tesseract "data/Loadzera-ground-truth/7ekwol1nfm.png" data/Loadzera-ground-truth/7ekwol1nfm --psm 13 lstm.train
+Error in pixReadMemTiff: function not present
+Error in pixReadMem: tiff: no pix returned
+Error in pixaGenerateFontFromString: pix not made
+Error in bmfCreate: font pixa not made
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/Loadzera-ground-truth/9s3p0w7tgk.png" -t "data/Loadzera-ground-truth/9s3p0w7tgk.gt.txt" > "data/Loadzera-ground-truth/9s3p0w7tgk.box"
+tesseract "data/Loadzera-ground-truth/9s3p0w7tgk.png" data/Loadzera-ground-truth/9s3p0w7tgk --psm 13 lstm.train
+Error in pixReadMemTiff: function not present
+Error in pixReadMem: tiff: no pix returned
+Error in pixaGenerateFontFromString: pix not made
+Error in bmfCreate: font pixa not made
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/Loadzera-ground-truth/sruz7cm5y5.png" -t "data/Loadzera-ground-truth/sruz7cm5y5.gt.txt" > "data/Loadzera-ground-truth/sruz7cm5y5.box"
+tesseract "data/Loadzera-ground-truth/sruz7cm5y5.png" data/Loadzera-ground-truth/sruz7cm5y5 --psm 13 lstm.train
+Error in pixReadMemTiff: function not present
+Error in pixReadMem: tiff: no pix returned
+Error in pixaGenerateFontFromString: pix not made
+Error in bmfCreate: font pixa not made
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/Loadzera-ground-truth/hhs87btueb.png" -t "data/Loadzera-ground-truth/hhs87btueb.gt.txt" > "data/Loadzera-ground-truth/hhs87btueb.box"
+tesseract "data/Loadzera-ground-truth/hhs87btueb.png" data/Loadzera-ground-truth/hhs87btueb --psm 13 lstm.train
+Error in pixReadMemTiff: function not present
+Error in pixReadMem: tiff: no pix returned
+Error in pixaGenerateFontFromString: pix not made
+Error in bmfCreate: font pixa not made
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/Loadzera-ground-truth/4mijkmn62k.png" -t "data/Loadzera-ground-truth/4mijkmn62k.gt.txt" > "data/Loadzera-ground-truth/4mijkmn62k.box"
+tesseract "data/Loadzera-ground-truth/4mijkmn62k.png" data/Loadzera-ground-truth/4mijkmn62k --psm 13 lstm.train
+Error in pixReadMemTiff: function not present
+Error in pixReadMem: tiff: no pix returned
+Error in pixaGenerateFontFromString: pix not made
+Error in bmfCreate: font pixa not made
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/Loadzera-ground-truth/m90cf37hzi.png" -t "data/Loadzera-ground-truth/m90cf37hzi.gt.txt" > "data/Loadzera-ground-truth/m90cf37hzi.box"
+tesseract "data/Loadzera-ground-truth/m90cf37hzi.png" data/Loadzera-ground-truth/m90cf37hzi --psm 13 lstm.train
+Error in pixReadMemTiff: function not present
+Error in pixReadMem: tiff: no pix returned
+Error in pixaGenerateFontFromString: pix not made
+Error in bmfCreate: font pixa not made
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/Loadzera-ground-truth/nltsub6kd0.png" -t "data/Loadzera-ground-truth/nltsub6kd0.gt.txt" > "data/Loadzera-ground-truth/nltsub6kd0.box"
+tesseract "data/Loadzera-ground-truth/nltsub6kd0.png" data/Loadzera-ground-truth/nltsub6kd0 --psm 13 lstm.train
+Error in pixReadMemTiff: function not present
+Error in pixReadMem: tiff: no pix returned
+Error in pixaGenerateFontFromString: pix not made
+Error in bmfCreate: font pixa not made
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/Loadzera-ground-truth/qpzr0aee8g.png" -t "data/Loadzera-ground-truth/qpzr0aee8g.gt.txt" > "data/Loadzera-ground-truth/qpzr0aee8g.box"
+tesseract "data/Loadzera-ground-truth/qpzr0aee8g.png" data/Loadzera-ground-truth/qpzr0aee8g --psm 13 lstm.train
+Error in pixReadMemTiff: function not present
+Error in pixReadMem: tiff: no pix returned
+Error in pixaGenerateFontFromString: pix not made
+Error in bmfCreate: font pixa not made
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/Loadzera-ground-truth/s015t8vhoh.png" -t "data/Loadzera-ground-truth/s015t8vhoh.gt.txt" > "data/Loadzera-ground-truth/s015t8vhoh.box"
+tesseract "data/Loadzera-ground-truth/s015t8vhoh.png" data/Loadzera-ground-truth/s015t8vhoh --psm 13 lstm.train
+Error in pixReadMemTiff: function not present
+Error in pixReadMem: tiff: no pix returned
+Error in pixaGenerateFontFromString: pix not made
+Error in bmfCreate: font pixa not made
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/Loadzera-ground-truth/kqtd92y1fv.png" -t "data/Loadzera-ground-truth/kqtd92y1fv.gt.txt" > "data/Loadzera-ground-truth/kqtd92y1fv.box"
+tesseract "data/Loadzera-ground-truth/kqtd92y1fv.png" data/Loadzera-ground-truth/kqtd92y1fv --psm 13 lstm.train
+Error in pixReadMemTiff: function not present
+Error in pixReadMem: tiff: no pix returned
+Error in pixaGenerateFontFromString: pix not made
+Error in bmfCreate: font pixa not made
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/Loadzera-ground-truth/f5t47m97c0.png" -t "data/Loadzera-ground-truth/f5t47m97c0.gt.txt" > "data/Loadzera-ground-truth/f5t47m97c0.box"
+tesseract "data/Loadzera-ground-truth/f5t47m97c0.png" data/Loadzera-ground-truth/f5t47m97c0 --psm 13 lstm.train
+Error in pixReadMemTiff: function not present
+Error in pixReadMem: tiff: no pix returned
+Error in pixaGenerateFontFromString: pix not made
+Error in bmfCreate: font pixa not made
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/Loadzera-ground-truth/lbfqogtff6.png" -t "data/Loadzera-ground-truth/lbfqogtff6.gt.txt" > "data/Loadzera-ground-truth/lbfqogtff6.box"
+tesseract "data/Loadzera-ground-truth/lbfqogtff6.png" data/Loadzera-ground-truth/lbfqogtff6 --psm 13 lstm.train
+Error in pixReadMemTiff: function not present
+Error in pixReadMem: tiff: no pix returned
+Error in pixaGenerateFontFromString: pix not made
+Error in bmfCreate: font pixa not made
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/Loadzera-ground-truth/fe9l7vv3ae.png" -t "data/Loadzera-ground-truth/fe9l7vv3ae.gt.txt" > "data/Loadzera-ground-truth/fe9l7vv3ae.box"
+tesseract "data/Loadzera-ground-truth/fe9l7vv3ae.png" data/Loadzera-ground-truth/fe9l7vv3ae --psm 13 lstm.train
+Error in pixReadMemTiff: function not present
+Error in pixReadMem: tiff: no pix returned
+Error in pixaGenerateFontFromString: pix not made
+Error in bmfCreate: font pixa not made
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/Loadzera-ground-truth/44djrnod1g.png" -t "data/Loadzera-ground-truth/44djrnod1g.gt.txt" > "data/Loadzera-ground-truth/44djrnod1g.box"
+tesseract "data/Loadzera-ground-truth/44djrnod1g.png" data/Loadzera-ground-truth/44djrnod1g --psm 13 lstm.train
+Error in pixReadMemTiff: function not present
+Error in pixReadMem: tiff: no pix returned
+Error in pixaGenerateFontFromString: pix not made
+Error in bmfCreate: font pixa not made
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/Loadzera-ground-truth/ekndqwm7ps.png" -t "data/Loadzera-ground-truth/ekndqwm7ps.gt.txt" > "data/Loadzera-ground-truth/ekndqwm7ps.box"
+tesseract "data/Loadzera-ground-truth/ekndqwm7ps.png" data/Loadzera-ground-truth/ekndqwm7ps --psm 13 lstm.train
+Error in pixReadMemTiff: function not present
+Error in pixReadMem: tiff: no pix returned
+Error in pixaGenerateFontFromString: pix not made
+Error in bmfCreate: font pixa not made
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/Loadzera-ground-truth/v6iqvcw1ph.png" -t "data/Loadzera-ground-truth/v6iqvcw1ph.gt.txt" > "data/Loadzera-ground-truth/v6iqvcw1ph.box"
+tesseract "data/Loadzera-ground-truth/v6iqvcw1ph.png" data/Loadzera-ground-truth/v6iqvcw1ph --psm 13 lstm.train
+Error in pixReadMemTiff: function not present
+Error in pixReadMem: tiff: no pix returned
+Error in pixaGenerateFontFromString: pix not made
+Error in bmfCreate: font pixa not made
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/Loadzera-ground-truth/0pknrfa4yn.png" -t "data/Loadzera-ground-truth/0pknrfa4yn.gt.txt" > "data/Loadzera-ground-truth/0pknrfa4yn.box"
+tesseract "data/Loadzera-ground-truth/0pknrfa4yn.png" data/Loadzera-ground-truth/0pknrfa4yn --psm 13 lstm.train
+Error in pixReadMemTiff: function not present
+Error in pixReadMem: tiff: no pix returned
+Error in pixaGenerateFontFromString: pix not made
+Error in bmfCreate: font pixa not made
+python3 shuffle.py 0 "data/Loadzera/all-lstmf"
++ head -n 73 data/Loadzera/all-lstmf
++ tail -n 9 data/Loadzera/all-lstmf
++ '[' '' = Windows_NT ']'
+if [ "" = "Windows_NT" ]; then \
+	dos2unix "data/Loadzera/Loadzera.numbers"; \
+	dos2unix "data/Loadzera/Loadzera.punc"; \
+	dos2unix "data/Loadzera/Loadzera.wordlist"; \
+	dos2unix "data/langdata/Loadzera/Loadzera.config"; \
+fi
+combine_lang_model \
+  --input_unicharset data/Loadzera/unicharset \
+  --script_dir data/langdata \
+  --numbers data/Loadzera/Loadzera.numbers \
+  --puncs data/Loadzera/Loadzera.punc \
+  --words data/Loadzera/Loadzera.wordlist \
+  --output_dir data \
+   \
+  --lang Loadzera
+Failed to read data from: data/Loadzera/Loadzera.wordlist
+Failed to read data from: data/Loadzera/Loadzera.punc
+Failed to read data from: data/Loadzera/Loadzera.numbers
+Loaded unicharset of size 50 from file data/Loadzera/unicharset
+Setting unichar properties
+Other case s of S is not in unicharset
+Other case m of M is not in unicharset
+Other case h of H is not in unicharset
+Other case w of W is not in unicharset
+Other case p of P is not in unicharset
+Other case e of E is not in unicharset
+Other case c of C is not in unicharset
+Other case k of K is not in unicharset
+Other case a of A is not in unicharset
+Other case d of D is not in unicharset
+Other case q of Q is not in unicharset
+Other case u of U is not in unicharset
+Other case x of X is not in unicharset
+Other case v of V is not in unicharset
+Setting script properties
+Config file is optional, continuing...
+Failed to read data from: data/langdata/Loadzera/Loadzera.config
+Null char=2
+lstmtraining \
+  --debug_interval 0 \
+  --traineddata data/Loadzera/Loadzera.traineddata \
+  --learning_rate 0.002 \
+  --net_spec "[1,36,0,1 Ct3,3,16 Mp3,3 Lfys48 Lfx96 Lrx96 Lfx192 O1c`head -n1 data/Loadzera/unicharset`]" \
+  --model_output data/Loadzera/checkpoints/Loadzera \
+  --train_listfile data/Loadzera/list.train \
+  --eval_listfile data/Loadzera/list.eval \
+  --max_iterations 10000 \
+  --target_error_rate 0.01
+Warning: given outputs 50 not equal to unicharset of 49.
+Num outputs,weights in Series:
+  1,36,0,1:1, 0
+Num outputs,weights in Series:
+  C3,3:9, 0
+  Ft16:16, 160
+Total weights = 160
+  [C3,3Ft16]:16, 160
+  Mp3,3:16, 0
+  TxyLfys48:48, 12480
+  Lfx96:96, 55680
+  RxLrx96:96, 74112
+  Lfx192:192, 221952
+  Fc49:49, 9457
+Total weights = 373841
+Built network:[1,36,0,1[C3,3Ft16]Mp3,3TxyLfys48Lfx96RxLrx96Lfx192Fc49] from request [1,36,0,1 Ct3,3,16 Mp3,3 Lfys48 Lfx96 Lrx96 Lfx192 O1c50]
+Training parameters:
+  Debug interval = 0, weights = 0.1, learning rate = 0.002, momentum=0.5
+null char=48
+2 Percent improvement time=86, best error was 100 @ 0
+At iteration 86/100/100, Mean rms=6.690000%, delta=22.841000%, BCER train=97.072000%, BWER train=100.000000%, skip ratio=0.000000%,  New best BCER = 97.072000 wrote checkpoint.
+
+2 Percent improvement time=84, best error was 97.072 @ 86
+At iteration 170/200/200, Mean rms=6.428000%, delta=19.385000%, BCER train=93.056000%, BWER train=100.000000%, skip ratio=0.000000%,  New best BCER = 93.056000 wrote checkpoint.
+
+2 Percent improvement time=90, best error was 93.056 @ 170
+At iteration 260/300/300, Mean rms=6.343000%, delta=18.758000%, BCER train=89.527000%, BWER train=100.000000%, skip ratio=0.000000%,  New best BCER = 89.527000 wrote checkpoint.
+
+2 Percent improvement time=95, best error was 89.527 @ 260
+At iteration 355/400/400, Mean rms=6.211000%, delta=17.846000%, BCER train=86.174000%, BWER train=98.875000%, skip ratio=0.000000%,  New best BCER = 86.174000 wrote checkpoint.
+
+2 Percent improvement time=99, best error was 86.174 @ 355
+At iteration 454/500/500, Mean rms=6.096000%, delta=17.496000%, BCER train=83.128000%, BWER train=96.800000%, skip ratio=0.000000%,  New best BCER = 83.128000 wrote checkpoint.
+
+2 Percent improvement time=198, best error was 86.174 @ 355
+At iteration 553/600/600, Mean rms=6.012000%, delta=17.552000%, BCER train=81.281000%, BWER train=94.833000%, skip ratio=0.000000%,  New best BCER = 81.281000 wrote checkpoint.
+
+2 Percent improvement time=199, best error was 83.128 @ 454
+At iteration 653/700/700, Mean rms=5.921000%, delta=17.522000%, BCER train=79.974000%, BWER train=93.429000%, skip ratio=0.000000%,  New best BCER = 79.974000 wrote checkpoint.
+
+2 Percent improvement time=299, best error was 83.128 @ 454
+At iteration 753/800/800, Mean rms=5.872000%, delta=17.717000%, BCER train=79.699000%, BWER train=92.813000%, skip ratio=0.000000%,  New best BCER = 79.699000 wrote checkpoint.
+
+2 Percent improvement time=300, best error was 81.281 @ 553
+At iteration 853/900/900, Mean rms=5.836000%, delta=17.924000%, BCER train=79.091000%, BWER train=92.000000%, skip ratio=0.000000%,  New best BCER = 79.091000 wrote checkpoint.
+
+2 Percent improvement time=400, best error was 81.281 @ 553
+At iteration 953/1000/1000, Mean rms=5.789000%, delta=17.975000%, BCER train=78.568000%, BWER train=91.600000%, skip ratio=0.000000%,  New best BCER = 78.568000 wrote checkpoint.
+
+2 Percent improvement time=100, best error was 78.568 @ 953
+At iteration 1053/1100/1100, Mean rms=5.661000%, delta=17.601000%, BCER train=76.501000%, BWER train=90.400000%, skip ratio=0.000000%,  New best BCER = 76.501000 wrote checkpoint.
+
+2 Percent improvement time=200, best error was 78.568 @ 953
+At iteration 1153/1200/1200, Mean rms=5.596000%, delta=17.971000%, BCER train=74.996000%, BWER train=88.950000%, skip ratio=0.000000%,  New best BCER = 74.996000 wrote checkpoint.
+
+2 Percent improvement time=200, best error was 76.501 @ 1053
+At iteration 1253/1300/1300, Mean rms=5.510000%, delta=18.060000%, BCER train=74.148000%, BWER train=87.650000%, skip ratio=0.000000%,  New best BCER = 74.148000 wrote checkpoint.
+
+2 Percent improvement time=300, best error was 76.501 @ 1053
+At iteration 1353/1400/1400, Mean rms=5.476000%, delta=18.561000%, BCER train=73.961000%, BWER train=86.850000%, skip ratio=0.000000%,  New best BCER = 73.961000 wrote checkpoint.
+
+At iteration 1453/1500/1500, Mean rms=5.451000%, delta=18.881000%, BCER train=74.055000%, BWER train=86.500000%, skip ratio=0.000000%,  New worst BCER = 74.055000 wrote checkpoint.
+
+At iteration 1553/1600/1600, Mean rms=5.440000%, delta=19.114000%, BCER train=74.611000%, BWER train=87.050000%, skip ratio=0.000000%,  New worst BCER = 74.611000 wrote checkpoint.
+
+At iteration 1653/1700/1700, Mean rms=5.450000%, delta=19.474000%, BCER train=74.899000%, BWER train=87.150000%, skip ratio=0.000000%,  New worst BCER = 74.899000 wrote checkpoint.
+
+At iteration 1747/1800/1800, Mean rms=5.494000%, delta=19.611000%, BCER train=74.690000%, BWER train=87.800000%, skip ratio=0.000000%,  New worst BCER = 74.690000 wrote checkpoint.
+
+At iteration 1845/1900/1900, Mean rms=5.607000%, delta=19.877000%, BCER train=76.552000%, BWER train=89.100000%, skip ratio=0.000000%,  New worst BCER = 76.552000 wrote checkpoint.
+
+At iteration 1944/2000/2000, Mean rms=5.669000%, delta=19.690000%, BCER train=78.052000%, BWER train=89.450000%, skip ratio=0.000000%,  New worst BCER = 78.052000 wrote checkpoint.
+
+At iteration 2043/2100/2100, Mean rms=5.696000%, delta=19.512000%, BCER train=78.143000%, BWER train=89.250000%, skip ratio=0.000000%,  New worst BCER = 78.143000 wrote checkpoint.
+
+At iteration 2143/2200/2200, Mean rms=5.714000%, delta=19.433000%, BCER train=77.888000%, BWER train=89.350000%, skip ratio=0.000000%,  New worst BCER = 77.888000 wrote checkpoint.
+
+At iteration 2243/2300/2300, Mean rms=5.738000%, delta=19.444000%, BCER train=77.672000%, BWER train=89.200000%, skip ratio=0.000000%,  New worst BCER = 77.672000 wrote checkpoint.
+
+At iteration 2342/2400/2400, Mean rms=5.744000%, delta=19.332000%, BCER train=77.735000%, BWER train=89.350000%, skip ratio=0.000000%,  New worst BCER = 77.735000 wrote checkpoint.
+
+At iteration 2442/2500/2500, Mean rms=5.752000%, delta=19.268000%, BCER train=77.753000%, BWER train=89.400000%, skip ratio=0.000000%,  New worst BCER = 77.753000 wrote checkpoint.
+
+At iteration 2542/2600/2600, Mean rms=5.743000%, delta=19.078000%, BCER train=77.287000%, BWER train=89.000000%, skip ratio=0.000000%,  wrote checkpoint.
+
+At iteration 2642/2700/2700, Mean rms=5.734000%, delta=18.796000%, BCER train=77.274000%, BWER train=89.133000%, skip ratio=0.000000%,  wrote checkpoint.
+
+At iteration 2742/2800/2800, Mean rms=5.694000%, delta=18.578000%, BCER train=77.306000%, BWER train=88.183000%, skip ratio=0.000000%,  wrote checkpoint.
+
+At iteration 2842/2900/2900, Mean rms=5.566000%, delta=18.089000%, BCER train=75.609000%, BWER train=87.283000%, skip ratio=0.000000%,  wrote checkpoint.
+
+At iteration 2942/3000/3000, Mean rms=5.506000%, delta=18.225000%, BCER train=74.174000%, BWER train=86.983000%, skip ratio=0.000000%,  wrote checkpoint.
+
+2 Percent improvement time=1989, best error was 76.501 @ 1053
+Warning: LSTMTrainer deserialized an LSTMRecognizer!
+At iteration 3042/3100/3100, Mean rms=5.481000%, delta=18.363000%, BCER train=73.777000%, BWER train=86.983000%, skip ratio=0.000000%,  New best BCER = 73.777000 wrote checkpoint.
+
+At iteration 3142/3200/3200, Mean rms=5.449000%, delta=18.256000%, BCER train=73.979000%, BWER train=87.183000%, skip ratio=0.000000%,  New worst BCER = 73.979000 wrote checkpoint.
+
+At iteration 3242/3300/3300, Mean rms=5.426000%, delta=18.151000%, BCER train=74.134000%, BWER train=87.300000%, skip ratio=0.000000%,  New worst BCER = 74.134000 wrote checkpoint.
+
+2 Percent improvement time=2289, best error was 76.501 @ 1053
+At iteration 3342/3400/3400, Mean rms=5.412000%, delta=18.157000%, BCER train=73.765000%, BWER train=87.067000%, skip ratio=0.000000%,  New best BCER = 73.765000 wrote checkpoint.
+
+At iteration 3442/3500/3500, Mean rms=5.413000%, delta=18.124000%, BCER train=74.159000%, BWER train=87.500000%, skip ratio=0.000000%,  New worst BCER = 74.159000 wrote checkpoint.
+
+At iteration 3542/3600/3600, Mean rms=5.422000%, delta=18.204000%, BCER train=74.244000%, BWER train=87.400000%, skip ratio=0.000000%,  New worst BCER = 74.244000 wrote checkpoint.
+
+At iteration 3642/3700/3700, Mean rms=5.411000%, delta=18.101000%, BCER train=73.874000%, BWER train=87.183000%, skip ratio=0.000000%,  New worst BCER = 73.874000 wrote checkpoint.
+
+At iteration 3742/3800/3800, Mean rms=5.381000%, delta=17.997000%, BCER train=73.811000%, BWER train=87.317000%, skip ratio=0.000000%,  New worst BCER = 73.811000 wrote checkpoint.
+
+2 Percent improvement time=2789, best error was 76.501 @ 1053
+At iteration 3842/3900/3900, Mean rms=5.384000%, delta=18.150000%, BCER train=73.598000%, BWER train=86.833000%, skip ratio=0.000000%,  New best BCER = 73.598000 wrote checkpoint.
+
+2 Percent improvement time=2889, best error was 76.501 @ 1053
+At iteration 3942/4000/4000, Mean rms=5.369000%, delta=18.061000%, BCER train=73.581000%, BWER train=86.750000%, skip ratio=0.000000%,  New best BCER = 73.581000 wrote checkpoint.
+
+At iteration 4040/4100/4100, Mean rms=5.362000%, delta=18.014000%, BCER train=73.855000%, BWER train=86.833000%, skip ratio=0.000000%,  New worst BCER = 73.855000 wrote checkpoint.
+
+At iteration 4140/4200/4200, Mean rms=5.354000%, delta=18.017000%, BCER train=74.002000%, BWER train=86.500000%, skip ratio=0.000000%,  New worst BCER = 74.002000 wrote checkpoint.
+
+At iteration 4239/4300/4300, Mean rms=5.353000%, delta=18.078000%, BCER train=74.324000%, BWER train=86.567000%, skip ratio=0.000000%,  New worst BCER = 74.324000 wrote checkpoint.
+
+At iteration 4338/4400/4400, Mean rms=5.339000%, delta=17.958000%, BCER train=74.728000%, BWER train=86.400000%, skip ratio=0.000000%,  New worst BCER = 74.728000 wrote checkpoint.
+
+At iteration 4437/4500/4500, Mean rms=5.316000%, delta=17.911000%, BCER train=74.594000%, BWER train=86.033000%, skip ratio=0.000000%,  New worst BCER = 74.594000 wrote checkpoint.
+
+At iteration 4535/4600/4600, Mean rms=5.283000%, delta=17.751000%, BCER train=74.714000%, BWER train=86.133000%, skip ratio=0.000000%,  New worst BCER = 74.714000 wrote checkpoint.
+
+At iteration 4634/4700/4700, Mean rms=5.288000%, delta=17.867000%, BCER train=75.138000%, BWER train=85.900000%, skip ratio=0.000000%,  New worst BCER = 75.138000 wrote checkpoint.
+
+At iteration 4733/4800/4800, Mean rms=5.285000%, delta=17.947000%, BCER train=75.234000%, BWER train=86.033000%, skip ratio=0.000000%,  New worst BCER = 75.234000 wrote checkpoint.
+
+At iteration 4831/4900/4900, Mean rms=5.263000%, delta=17.808000%, BCER train=75.306000%, BWER train=86.033000%, skip ratio=0.000000%,  New worst BCER = 75.306000 wrote checkpoint.
+
+At iteration 4930/5000/5000, Mean rms=5.261000%, delta=17.901000%, BCER train=75.364000%, BWER train=85.667000%, skip ratio=0.000000%,  New worst BCER = 75.364000 wrote checkpoint.
+
+Warning: LSTMTrainer deserialized an LSTMRecognizer!
+At iteration 5028/5100/5100, Mean rms=5.251000%, delta=17.828000%, BCER train=75.363000%, BWER train=85.900000%, skip ratio=0.000000%,  New worst BCER = 75.363000At iteration 2442, stage 0, BCER eval=86.111111, BWER eval=94.444444 wrote checkpoint.
+
+At iteration 5126/5200/5200, Mean rms=5.249000%, delta=17.832000%, BCER train=75.236000%, BWER train=85.817000%, skip ratio=0.000000%,  wrote checkpoint.
+
+At iteration 5225/5300/5300, Mean rms=5.234000%, delta=17.794000%, BCER train=75.132000%, BWER train=85.667000%, skip ratio=0.000000%,  wrote checkpoint.
+
+At iteration 5322/5400/5400, Mean rms=5.229000%, delta=17.721000%, BCER train=75.183000%, BWER train=85.883000%, skip ratio=0.000000%,  wrote checkpoint.
+
+At iteration 5421/5500/5500, Mean rms=5.235000%, delta=17.794000%, BCER train=75.130000%, BWER train=85.583000%, skip ratio=0.000000%,  wrote checkpoint.
+
+At iteration 5518/5600/5600, Mean rms=5.227000%, delta=17.724000%, BCER train=75.125000%, BWER train=85.650000%, skip ratio=0.000000%,  wrote checkpoint.
+
+At iteration 5616/5700/5700, Mean rms=5.212000%, delta=17.622000%, BCER train=75.064000%, BWER train=85.950000%, skip ratio=0.000000%,  wrote checkpoint.
+
+At iteration 5714/5800/5800, Mean rms=5.221000%, delta=17.690000%, BCER train=74.867000%, BWER train=85.483000%, skip ratio=0.000000%,  wrote checkpoint.
+
+At iteration 5811/5900/5900, Mean rms=5.213000%, delta=17.658000%, BCER train=75.020000%, BWER train=85.883000%, skip ratio=0.000000%,  wrote checkpoint.
+
+At iteration 5909/6000/6000, Mean rms=5.211000%, delta=17.593000%, BCER train=75.032000%, BWER train=85.900000%, skip ratio=0.000000%,  wrote checkpoint.
+
+At iteration 6007/6100/6100, Mean rms=5.199000%, delta=17.582000%, BCER train=74.752000%, BWER train=85.450000%, skip ratio=0.000000%,  wrote checkpoint.
+
+At iteration 6103/6200/6200, Mean rms=5.192000%, delta=17.570000%, BCER train=74.930000%, BWER train=85.567000%, skip ratio=0.000000%,  wrote checkpoint.
+
+At iteration 6201/6300/6300, Mean rms=5.199000%, delta=17.595000%, BCER train=74.938000%, BWER train=85.333000%, skip ratio=0.000000%,  wrote checkpoint.
+
+At iteration 6299/6400/6400, Mean rms=5.188000%, delta=17.564000%, BCER train=74.706000%, BWER train=85.083000%, skip ratio=0.000000%,  wrote checkpoint.
+
+At iteration 6396/6500/6500, Mean rms=5.167000%, delta=17.401000%, BCER train=74.746000%, BWER train=85.283000%, skip ratio=0.000000%,  wrote checkpoint.
+
+At iteration 6494/6600/6600, Mean rms=5.181000%, delta=17.546000%, BCER train=74.702000%, BWER train=84.933000%, skip ratio=0.000000%,  wrote checkpoint.
+
+At iteration 6591/6700/6700, Mean rms=5.174000%, delta=17.504000%, BCER train=74.626000%, BWER train=85.017000%, skip ratio=0.000000%,  wrote checkpoint.
+
+At iteration 6689/6800/6800, Mean rms=5.177000%, delta=17.508000%, BCER train=74.706000%, BWER train=85.283000%, skip ratio=0.000000%,  wrote checkpoint.
+
+At iteration 6788/6900/6900, Mean rms=5.194000%, delta=17.636000%, BCER train=74.645000%, BWER train=85.033000%, skip ratio=0.000000%,  wrote checkpoint.
+
+At iteration 6885/7000/7000, Mean rms=5.195000%, delta=17.706000%, BCER train=74.828000%, BWER train=85.350000%, skip ratio=0.000000%,  wrote checkpoint.
+
+At iteration 6982/7100/7100, Mean rms=5.196000%, delta=17.750000%, BCER train=74.771000%, BWER train=85.267000%, skip ratio=0.000000%,  wrote checkpoint.
+
+At iteration 7079/7200/7200, Mean rms=5.188000%, delta=17.723000%, BCER train=74.677000%, BWER train=85.383000%, skip ratio=0.000000%,  wrote checkpoint.
+
+At iteration 7176/7300/7300, Mean rms=5.171000%, delta=17.649000%, BCER train=74.741000%, BWER train=85.683000%, skip ratio=0.000000%,  wrote checkpoint.
+
+At iteration 7275/7400/7400, Mean rms=5.186000%, delta=17.816000%, BCER train=74.808000%, BWER train=85.583000%, skip ratio=0.000000%,  wrote checkpoint.
+
+At iteration 7373/7500/7500, Mean rms=5.189000%, delta=17.825000%, BCER train=75.039000%, BWER train=85.833000%, skip ratio=0.000000%,  wrote checkpoint.
+
+At iteration 7472/7600/7600, Mean rms=5.181000%, delta=17.785000%, BCER train=75.264000%, BWER train=86.150000%, skip ratio=0.000000%,  wrote checkpoint.
+
+At iteration 7570/7700/7700, Mean rms=5.184000%, delta=17.859000%, BCER train=75.263000%, BWER train=85.833000%, skip ratio=0.000000%,  wrote checkpoint.
+
+At iteration 7668/7800/7800, Mean rms=5.160000%, delta=17.722000%, BCER train=75.350000%, BWER train=85.900000%, skip ratio=0.000000%,  wrote checkpoint.
+
+At iteration 7766/7900/7900, Mean rms=5.138000%, delta=17.555000%, BCER train=75.220000%, BWER train=85.667000%, skip ratio=0.000000%,  wrote checkpoint.
+
+At iteration 7865/8000/8000, Mean rms=5.120000%, delta=17.457000%, BCER train=74.902000%, BWER train=85.400000%, skip ratio=0.000000%,  wrote checkpoint.
+
+At iteration 7961/8100/8100, Mean rms=5.117000%, delta=17.374000%, BCER train=75.232000%, BWER train=85.667000%, skip ratio=0.000000%,  wrote checkpoint.
+
+At iteration 8060/8200/8200, Mean rms=5.129000%, delta=17.421000%, BCER train=75.356000%, BWER train=85.433000%, skip ratio=0.000000%,  wrote checkpoint.
+
+At iteration 8160/8300/8300, Mean rms=5.124000%, delta=17.307000%, BCER train=75.183000%, BWER train=85.383000%, skip ratio=0.000000%,  wrote checkpoint.
+
+Warning: LSTMTrainer deserialized an LSTMRecognizer!
+At iteration 8258/8400/8400, Mean rms=5.104000%, delta=17.062000%, BCER train=75.402000%, BWER train=85.750000%, skip ratio=0.000000%,  New worst BCER = 75.402000At iteration 3942, stage 0, BCER eval=68.055556, BWER eval=72.222222 wrote checkpoint.
+
+At iteration 8357/8500/8500, Mean rms=5.094000%, delta=16.996000%, BCER train=75.123000%, BWER train=85.450000%, skip ratio=0.000000%,  wrote checkpoint.
+
+At iteration 8456/8600/8600, Mean rms=5.080000%, delta=16.807000%, BCER train=75.056000%, BWER train=85.583000%, skip ratio=0.000000%,  wrote checkpoint.
+
+At iteration 8554/8700/8700, Mean rms=5.070000%, delta=16.705000%, BCER train=75.158000%, BWER train=85.833000%, skip ratio=0.000000%,  wrote checkpoint.
+
+At iteration 8653/8800/8800, Mean rms=5.045000%, delta=16.490000%, BCER train=74.710000%, BWER train=85.617000%, skip ratio=0.000000%,  wrote checkpoint.
+
+At iteration 8752/8900/8900, Mean rms=5.048000%, delta=16.484000%, BCER train=75.015000%, BWER train=86.150000%, skip ratio=0.000000%,  wrote checkpoint.
+
+At iteration 8852/9000/9000, Mean rms=5.045000%, delta=16.397000%, BCER train=74.910000%, BWER train=86.167000%, skip ratio=0.000000%,  wrote checkpoint.
+
+At iteration 8952/9100/9100, Mean rms=5.033000%, delta=16.290000%, BCER train=74.793000%, BWER train=86.183000%, skip ratio=0.000000%,  wrote checkpoint.
+
+At iteration 9050/9200/9200, Mean rms=5.000000%, delta=15.992000%, BCER train=74.689000%, BWER train=86.433000%, skip ratio=0.000000%,  wrote checkpoint.
+
+At iteration 9148/9300/9300, Mean rms=4.988000%, delta=15.966000%, BCER train=74.314000%, BWER train=86.050000%, skip ratio=0.000000%,  wrote checkpoint.
+
+At iteration 9246/9400/9400, Mean rms=4.974000%, delta=15.894000%, BCER train=74.073000%, BWER train=85.883000%, skip ratio=0.000000%,  wrote checkpoint.
+
+At iteration 9343/9500/9500, Mean rms=4.961000%, delta=15.754000%, BCER train=73.949000%, BWER train=85.667000%, skip ratio=0.000000%,  wrote checkpoint.
+
+2 Percent improvement time=8387, best error was 76.501 @ 1053
+Warning: LSTMTrainer deserialized an LSTMRecognizer!
+At iteration 9440/9600/9600, Mean rms=4.938000%, delta=15.632000%, BCER train=73.296000%, BWER train=84.983000%, skip ratio=0.000000%,  New best BCER = 73.296000At iteration 5028, stage 0, BCER eval=63.790850, BWER eval=72.222222 wrote checkpoint.
+
+2 Percent improvement time=8484, best error was 76.501 @ 1053
+At iteration 9537/9700/9700, Mean rms=4.930000%, delta=15.528000%, BCER train=73.164000%, BWER train=85.000000%, skip ratio=0.000000%,  New best BCER = 73.164000 wrote checkpoint.
+
+2 Percent improvement time=8479, best error was 74.996 @ 1153
+At iteration 9632/9800/9800, Mean rms=4.914000%, delta=15.426000%, BCER train=72.772000%, BWER train=84.550000%, skip ratio=0.000000%,  New best BCER = 72.772000 wrote checkpoint.
+
+2 Percent improvement time=8376, best error was 73.961 @ 1353
+At iteration 9729/9900/9900, Mean rms=4.878000%, delta=15.204000%, BCER train=71.939000%, BWER train=83.933000%, skip ratio=0.000000%,  New best BCER = 71.939000 wrote best model:data/Loadzera/checkpoints/Loadzera_71.939000_9729_9900.checkpoint wrote checkpoint.
+
+2 Percent improvement time=6482, best error was 73.765 @ 3342
+At iteration 9824/10000/10000, Mean rms=4.851000%, delta=15.009000%, BCER train=71.718000%, BWER train=83.783000%, skip ratio=0.000000%,  New best BCER = 71.718000 wrote checkpoint.
+
+Finished! Selected model with minimal training error rate (BCER) = 71.718
+lstmtraining \
+--stop_training \
+--continue_from data/Loadzera/checkpoints/Loadzera_checkpoint \
+--traineddata data/Loadzera/Loadzera.traineddata \
+--model_output data/Loadzera.traineddata
+Loaded file data/Loadzera/checkpoints/Loadzera_checkpoint, unpacking...
